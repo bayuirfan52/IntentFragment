@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_padding"
+    tools:context="com.bayuirfan.intentfragment.fragment.OptionDialogFragment">
+
+    <TextView
+        android:layout_margin="@dimen/activity_horizontal_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_number"
+        android:textSize="20sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_group_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_1_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/ten"
+            />
+        <RadioButton
+            android:id="@+id/radio_2_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/twenty"
+            />
+        <RadioButton
+            android:id="@+id/radio_3_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/thirty"
+            />
+        <RadioButton
+            android:id="@+id/radio_4_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/forty"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_select_dialog"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/close"
+        android:background="@android:color/holo_green_dark"
+        />
+</LinearLayout>

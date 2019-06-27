@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">IntentFragment</string>
+    <string name="intent_result">Intent result</string>
+    <string name="choose_number">Choose Number</string>
+    <string name="ten">10</string>
+    <string name="twenty">20</string>
+    <string name="thirty">30</string>
+    <string name="forty">40</string>
+    <string name="choose">Choose</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_category">Fragment Category</string>
+    <string name="hello_category_blank_fragment">Hello Category Fragment</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_description">Category Description</string>
+    <string name="to_profile">to profile</string>
+    <string name="show_dialog">show dialog</string>
+    <string name="close">Close</string>
+</resources>
